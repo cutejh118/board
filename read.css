@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+}
+#board_read {
+    width: 900px;
+    word-break: break-all;
+    position: relative;
+}
+#user_info {
+    margin-top: 10px;
+}
+
+#board_line{
+    width: 900px;
+    background-color: gray;
+    margin-top: 20px;
+    height: 2px;
+}
+
+#board_content {
+    margin-top: 20px;
+    
+}   
+#board_func{
+    right: 0;
+    position: absolute;
+}
+
+#board_func ul li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+#board_func a:link{
+/*클릭하기전*/ color: rgba(103, 155, 146, 1);
+    text-decoration: none;
+}
+
+#board_func a:visited{
+    /*방문했을때*/ color: rgba(161, 116, 175, 1);
+        text-decoration: none;
+}

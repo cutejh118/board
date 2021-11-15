@@ -1,0 +1,36 @@
+.board_write{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.board_write a{
+    text-decoration: none   ;
+}
+
+.board_write #title{
+
+margin-top: 30px;
+}
+
+
+.board_write #title textarea,
+.board_write #name textarea,
+.board_write #content textarea{
+    width: 900px;
+    border: none;
+    resize: none;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.3);
+    outline: none;
+}
+
+.board_write #content textarea{
+    height: 400px;
+}
+
+.board_write #pw input{
+    box-shadow: 0 4px 6px rgba(43, 43, 150, 0.4);
+    outline: none;
+    border: none;
+    color: gray;
+}

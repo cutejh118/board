@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+}
+
+
+#board{
+  width: 900px;
+  text-align: center;
+}
+
+.list_table{
+    margin-top: 40px;
+}
+
+.list_table #list_header th{
+    height: 40px;
+    border-top: 2px solid #09c;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 17px;
+    width: 300px;
+}
+.list_table #list_header td{
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+}
+#write_btn{
+    position: absolute;
+    margin-top: 20px;
+}
